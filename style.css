@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+
+}
+/* nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    
+
+} */
+/* .container-md{
+    display: flex;
+    
+} */
+/* /* .head-text{
+    text-align: justify;
+    padding-left: 10px;
+    font-size: 14px;
+} */
+/*  */
+/* ul{
+    display: flex;
+    gap: 30px;
+    justify-items: end;
+    padding-left: 550px;
+    padding-top: 10px;
+    
+}  */
+.head-text {
+  text-align: justify;
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+
+/* ul {
+  display: flex;
+  gap: 30px;
+  justify-items: end;
+  padding-left: 550px;
+  padding-top: 10px;
+} */
+nav {
+  background-color: var(--white);
+}
+
+nav img {
+  width: 40px;
+  height: 40px;
+}
+
+nav p {
+  font-size: 15px;
+}
+
+.full-stack {
+  font-size: 32px;
+}
+
+.explore {
+  color: var(--white);
+}
+
+.location {
+  font-size: 15px;
+  margin: 0;
+  padding-left: 10px;
+}
+
+.en-details {
+  font-size: 20px;
+}
+
+.prog-details {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.input-box {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+
+.btn {
+  /* width: 100%; */
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+.btnn {
+  /* width: 90%; */
+  padding: 15px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.box {
+  background-color: lightblue;
+  border: 1px solid blue;
+  min-height: 50px;
+}
+
+.background {
+  background-image: url("./images/WhatsApp\ Image\ 2022-12-23\ at\ 12.08.20.jpeg");
+  background-size: cover;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding: 20px 10px;
+}
+
+#adjust-width {
+  width: 85%;
+  /* width: 1220px; */
+  padding: 50px 0;
+}
+.col img{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 100px;
+    
+
+}
+.col h5{
+    font-weight: 750;
+
+}
+.col p{
+    font-weight: 450;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.style h5{
+    font-size: 17px;
+    font-weight: 650;
+}
+.style p{
+    font-size: 15px;
+}
+.style-1 h4{
+    font-size: 20px;
+    font-weight: 650;
+} 
+.style-1 p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.text-1{
+    font-size: 15px;
+
+}
+/* .space{
+    border:none;
+    justify-content: center;
+    width: 750px;
+    height: 200px;
+    border-radius: 8px;
+    background-color: rgb(18, 109, 245);
+    color: white;
+    margin: auto;
+    
+}
+.space button{
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 8px;
+    color: rgb(18, 109, 245);
+
+}
+.space h4{
+    font-size: 23px;
+    font-weight: 400;
+    
+    
+} */
+.btn-5{
+    width: 330px;
+    height: 50px;
+    margin: auto;
+    background-color: rgb(18, 109, 245);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.buttom h5{
+    font-size: 20px;
+    font-weight: 500;
+}
+.buttom h2{
+    font-weight: 200;
+    font-size: 35px;
+}
+.buttom h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: gray;
+}
+.buttom h3{
+    font-size: 25px;
+    font-weight: 200;
+}
+.buttom h1{
+    font-size: 30px;
+    font-weight: 400;
+}
+.foot img{
+  width: 30px;
+  height: 30px;
+  
+}
+.whatsapp-container {
+  position: fixed;
+  z-index: 1;
+}
+.whatsapp-container a {
+  text-decoration: none;
+  position: fixed;
+  bottom: 60px;
+  right: 30px;
+  display: block;
+  background-color: #25d366;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whatsapp-container i {
+  font-size: 1.8em;
+  color: white;
+  /* padding: 15px; */
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.icons img{
+  justify-content: space-between;
+  border-radius: 0%;
+  border: none;
+  background-color: black;
+  color: white;
+  
+}
+
+
+
